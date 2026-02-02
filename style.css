@@ -1,4 +1,8 @@
-<style>
-    
+:root { --gold: #d1ad7a; --bg: #0a0a0a; --panel: #1a1610; --border: #3d3522; --rare: #f1c40f; }
+body { background: var(--bg); color: var(--gold); font-family: 'Verdana', sans-serif; display: flex; flex-direction: column; align-items: center; margin: 0; user-select: none; overflow: hidden; }
 
-</style>
+/* Skopiuj tutaj wszystkie style, które miałeś wcześniej między <style> a </style> */
+.ui-container { width: 800px; padding: 10px; display: flex; justify-content: space-between; background: var(--panel); border-bottom: 2px solid var(--border); box-sizing: border-box; z-index: 10;}
+canvas { background: radial-gradient(circle, #111 0%, #000 100%); border: 2px solid var(--border); margin-top: 5px; cursor: crosshair; }
+
+/* ... reszta twoich styli (okna, paski, drzewko) ... */
